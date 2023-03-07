@@ -16,15 +16,15 @@ function App() {
     <div className="App">
       <Routes>
         <Route path = "/" element = {<HomePage/>}></Route>
-        <Route path = "/" element = {<AboutUs/>}></Route>
-        <Route path = "/" element = {<ContactUs/>}></Route>
-        <Route path = "/" element = {<GradeOne/>}></Route>
-        <Route path = "/" element = {<GradeTwo/>}></Route>
-        <Route path = "/" element = {<GradeThree/>}></Route>
-        <Route path = "/" element = {<GradeFour/>}></Route>
-        <Route path = "/" element = {<GradeFive/>}></Route>
-        <Route path = "/" element = {<Register/>}></Route>
-        <Route path = "/" element = {<Volunteer/>}></Route>
+        <Route path = "/aboutus" element = {<AboutUs/>}></Route>
+        <Route path = "/contactus" element = {<ContactUs/>}></Route>
+        <Route path = "/grade/1" element = {<GradeOne/>}></Route>
+        <Route path = "/grade/2" element = {<GradeTwo/>}></Route>
+        <Route path = "/grade/3" element = {<GradeThree/>}></Route>
+        <Route path = "/grade/4" element = {<GradeFour/>}></Route>
+        <Route path = "/grade/5" element = {<GradeFive/>}></Route>
+        <Route path = "/register" element = {<Register/>}></Route>
+        <Route path = "/volunteer" element = {<Volunteer/>}></Route>
       </Routes>
     </div>
   );
