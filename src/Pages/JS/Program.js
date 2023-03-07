@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import "../CSS/Program.css"
 
 import programInfo from '../../data/programInfo'
 
