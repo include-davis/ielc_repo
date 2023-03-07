@@ -4,7 +4,22 @@
 /* global css variables */
 html {
     --primary: #E84D28;
-    --primary-light: #E84D28;
+    --primary-light: #FF9272;
+    --secondary-blue: #4158CA;
+    --secondary-blue-light: #8695DD;
+    --secondary-yellow: #FED74C;
+    --secondary-yellow-light: #FFE68D;
+    --secondary-teal: #2CADB1;
+    --secondary-teal-light: #AADADC;
+
+    --creme-white: #FCFBFA;
+    --gray-100: #E6E6E6;
+    --gray-200: #CECFCD;
+    --gray300: #C8C8C8;
+    --gray400: #AAAAAA;
+    --gray500: #828282;
+    --gray600: #3B3D3B;
+    --dark: #3B3D3B;
 }
 
 :root {

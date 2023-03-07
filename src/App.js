@@ -19,7 +19,7 @@ function App() {
           <Route path = "/" element = {<HomePage/>}></Route>
           <Route path = "/about-us" element = {<AboutUs/>}></Route>
           <Route path = "/contact-us" element = {<ContactUs/>}></Route>
-          <Route path = "/grade/:gradeLevel" element = {<Program/>}></Route>
+          <Route path = "/program/:gradeLevel" element = {<Program/>}></Route>
           <Route path = "/register" element = {<Register/>}></Route>
           <Route path = "/volunteer" element = {<Volunteer/>}></Route>
         </Routes>
