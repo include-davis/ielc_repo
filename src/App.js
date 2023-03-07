@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Navbar from "./components/js/Navbar";
-import Footer from "./components/js/Footer";
+import Navbar from "./Components/JS/Navbar";
+import Footer from "./Components/JS/Footer";
 
-import AboutUs from "./pages/js/AboutUs";
-import ContactUs from "./pages/js/ContactUs";
-import Program from "./pages/js/Program";
-import HomePage from "./pages/js/HomePage";
-import Register from "./pages/js/Register";
-import Volunteer from "./pages/js/Volunteer";
+import AboutUs from "./Pages/JS/AboutUs";
+import ContactUs from "./Pages/JS/ContactUs";
+import Program from "./Pages/JS/Program";
+import HomePage from "./Pages/JS/HomePage";
+import Register from "./Pages/JS/Register";
+import Volunteer from "./Pages/JS/Volunteer";
 
 function App() {
   return (
