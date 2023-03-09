@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    /* 
+    width is the width of the content, so only the stuff inside the padding
+    We use calc to do some math
+    */
+    width: calc(100vw - 128px);
+    margin: 32px;
+    padding: 32px;
+    border: solid 2px var(--primary-light);
+
+    align-items: center;
+    text-align: center;
+}
