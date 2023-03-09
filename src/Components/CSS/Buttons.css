@@ -1,0 +1,26 @@
+.small {
+    width: auto;
+}
+
+.large {
+    width: 200%;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--creme-white);
+    border-color:var(--primary);
+}
+
+.secondary {
+    background-color: var(--primary-light);
+    color: var(--creme-white);
+    border-color:var(--primary);
+}
+
+.tertiary {
+    border: solid;
+    border-color: var(--primary);
+    color: var(--primary);
+    background-color: var(--creme-white);
+}

@@ -10,6 +10,7 @@ import HomePage from "./Pages/JS/HomePage";
 import Register from "./Pages/JS/Register";
 import Volunteer from "./Pages/JS/Volunteer";
 import Components from './Pages/JS/Components';
+import Buttons from './Components/JS/Buttons';
 
 function App() {
   return (
