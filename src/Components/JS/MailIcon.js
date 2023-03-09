@@ -1,5 +1,4 @@
 import React from 'react';
-import "../CSS/MailIcon.css";
 
 export default function InstaIcon({size}) {
 

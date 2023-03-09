@@ -1,5 +1,4 @@
 import React from 'react';
-import "../CSS/FacebookIcon.css";
 
 export default function FacebookIcon({size}) {
 
