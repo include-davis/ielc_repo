@@ -3,6 +3,8 @@ import { useState } from "react";
 import "../CSS/Components.css";
 import DemoModal from "../../Components/JS/DemoModal";
 
+// we can pass functions into our json object
+// since this json object is passed into our component, we effectively pass functions into our component
 const buttons = [
   {
     name: "button 1",
