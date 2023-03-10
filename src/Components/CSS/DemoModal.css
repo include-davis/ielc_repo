@@ -1,3 +1,4 @@
+/* this styling is just to make the buttons less ugly not important until .modal-container */
 button {
     height: 32px;
     background-color: var(--secondary-teal-light);
@@ -14,7 +15,9 @@ button>p {
     margin: 0;
 }
 
+/* this is the main container for our modal */
 .modal-container {
+    /* position relative so our position absolute button can position according to this div */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -26,8 +29,17 @@ button>p {
     border-radius: 12px;
 
     align-items: center;
+    /* animate all transitions to be smooth */
+    transition: all 0.5s ease-in-out;
 }
 
+/* if an element has the hidden class, then it won't show.
+By default they do show so if there is no hidden class, it will just show */
+.hidden {
+    display: none;
+}
+
+/* position absolute positioned according to the container div */
 .exit-button {
     position: absolute;
     top: 8px;
@@ -36,26 +48,36 @@ button>p {
     width: 32px;
 }
 
+/* container for the list of buttons that we want to have list downwards */
 .buttons {
     display: flex;
     flex-direction: column;
+    /* add a gap of 24px between buttons */
     gap: 24px;
+    /* have the container for the buttons take on the width of the entire modal container */
     width: 100%;
+    /* align everything to the center inside this div */
     align-items: center;
 }
 
+/* this is the child combinator, chooses all button tags who are children of the div with the buttons class */
 .buttons>button {
     width: 100%;
 }
 
+/* the container for the left and right buttons */
 .movement-buttons {
     display: flex;
     flex-direction: row;
+    /* the container wants to be 100% of the width of the parent which is the div with the buttons class */
     width: 100%;
-
+    /* want a 24px gap between the left an right buttons */
     gap: 24px;
 }
 
 .movement-buttons>button {
+    /* the gap actually reduces how much space there is in the parent container
+    so thos 24px are removed from how much space is allocated for the movement buttons
+    because of this, we can do width: 50% and have width shared between the two buttons */
     width: 50%;
 }
