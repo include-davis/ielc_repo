@@ -9,9 +9,9 @@
     width: calc(100vw - 128px);
     margin: 32px;
     padding: 32px;
-    border: solid 2px var(--primary-light);
+    border: solid 2px var(--secondary-teal);
+    border-radius: 8px;
 
     align-items: center;
     text-align: center;
-    background-color: gray;
 }
