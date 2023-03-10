@@ -7,7 +7,6 @@ export default function Components() {
     return (
         <div className='container'>
             <h1>Components</h1>
-            <Buttons size="large" text="howdy" type="tertiary" width='300px'></Buttons>
         </div>
     )
 }
