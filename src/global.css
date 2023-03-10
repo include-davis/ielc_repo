@@ -65,3 +65,11 @@ p, .p-large {
     font-size: 1rem;
     line-height: 1.4375rem;
 }
+
+button {
+    height: 50px;
+    width: 342px;
+    padding: 16px 24px;
+    border-radius: 5px;
+    text-align: center;
+}
