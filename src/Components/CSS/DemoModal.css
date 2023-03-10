@@ -1,0 +1,61 @@
+button {
+    height: 32px;
+    background-color: var(--secondary-teal-light);
+
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: var(--secondary-teal);
+}
+
+button>p {
+    margin: 0;
+}
+
+.modal-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding: 0px 48px 48px 48px;
+
+    border: solid 2px var(--secondary-teal);
+    border-radius: 12px;
+
+    align-items: center;
+}
+
+.exit-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    
+    width: 32px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    align-items: center;
+}
+
+.buttons>button {
+    width: 100%;
+}
+
+.movement-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    gap: 24px;
+}
+
+.movement-buttons>button {
+    width: 50%;
+}
