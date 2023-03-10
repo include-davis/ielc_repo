@@ -9,15 +9,6 @@ export default function Components() {
     return (
         <div className='container'>
             <h1>Components</h1>
-            <InstaIcon
-                size={"4rem"}
-            />
-            <MailIcon
-                size={"100px"}
-            />
-            <FacebookIcon
-                size={60}
-            />
         </div>
     )
 }
