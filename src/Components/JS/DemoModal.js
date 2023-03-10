@@ -12,7 +12,6 @@ export default function DemoModal(props) {
                     buttonInfo.map((button, index) => {
                         return (
                             <button 
-                                className='auto-button' 
                                 key={index}
                                 onClick={button.onClick}>
                                     <p className='p-small'>{button.name}</p>
